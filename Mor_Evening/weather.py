@@ -116,8 +116,8 @@ def get_city_weather(index, search_type=1):
 
 #获取百度语音token
 def get_token():
-    api_key = "百度语音合成api_key"
-    sec_key = "百度语音合成sec_key"
+    api_key = "百度api_key'"
+    sec_key = "百度sce_key"
     url = url="https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id="+api_key+"&client_secret="+sec_key
     req = urllib2.Request(url)
     resp = urllib2.urlopen(req)
@@ -127,7 +127,7 @@ def get_token():
 
 #获取需要的数据
 def get_wat():
-    city_id = "**********"  #城市代码   
+    city_id = "城市代码"  #城市代码   
     city_weather = get_city_weather(city_id)
     
     #当天的整体天气
@@ -215,9 +215,9 @@ if __name__ == '__main__':
 
     #播放
     try:
-        os.system('/home/pi/sourcecode/fuzhuscript/Mor_Evening/vlc/volume-drop.sh')
+        #os.system('/home/pi/sourcecode/fuzhuscript/Mor_Evening/vlc/volume-drop.sh')
         os.system('/usr/bin/mplayer -cache-min 80 -volume 40 "%s"' %(url))
-        os.system('/home/pi/sourcecode/fuzhuscript/Mor_Evening/vlc/volume-rise.sh')
+        #os.system('/home/pi/sourcecode/fuzhuscript/Mor_Evening/vlc/volume-rise.sh')
 
     except Exception as e:
         print('Exception',e)
