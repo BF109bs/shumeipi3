@@ -237,25 +237,13 @@ def startSound( threadName, logger,startStopDict ,rwLockStartStopDict):
         logger.info('startSound: %s', key)
         index = selectStartStopKey(logger,key)
         if  index == 0: #开始音乐
-            cmd = 'python ' + sourcePath + ' -v ' + '即将播放音乐'
-            os.system(cmd)
-            
-            sourcePath = PROJECT_PATH + 'music.py'
+            sourcePath = 'python ' +PROJECT_PATH + 'music.py'
             os.system(sourcePath)
-            #os.system('python /home/pi/sourcecode/fuzhuscript/voice_ctl/music.py')
         elif index == 1:#开始天气
-            cmd = 'python ' + sourcePath + ' -v ' + '即将预报天气'
-            #subprocess.call(cmd,shell=True) 
-            os.system(cmd)
-            
-            sourceCmd =PROJECT_PATH + 'weather.py '
+            sourceCmd = 'python ' + PROJECT_PATH + 'weather.py '
             os.system(sourceCmd)
         elif index == 2:#开始笑话
-            cmd = 'python ' + sourcePath + ' -v ' + '即将说笑话'
-            os.system(cmd)
-            
             sourcePath = 'python ' + PROJECT_PATH + 'qiushibaike.py'
-            logger.info('startSound,sourcePath: %s', sourcePath)
             os.system(sourcePath)
         elif index == None:
             pass
