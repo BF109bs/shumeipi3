@@ -17,9 +17,9 @@ from aip import AipSpeech
 import UCLogger
 
 # 定义常量
-APP_ID = 'app_id'
-API_KEY = '百度api-key'
-SECRET_KEY = '百度sec-key'
+APP_ID = '百度app_id'
+API_KEY = '百度api_key'
+SECRET_KEY = '百度sec_key'
 
 LOG_PATH = '/home/pi/sourcecode/fuzhuscript/log/'
 #IS_DEBUG=False

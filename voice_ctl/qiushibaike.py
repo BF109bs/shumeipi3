@@ -21,8 +21,8 @@ def signHandle(signum, frame):
 
 #获取百度语音token
 def get_token():
-        api_key = "百度api-key"
-        sec_key = "百度sec-key"
+        api_key = "百度api_key"
+        sec_key = "百度sec_key"
         url = url="https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id="+api_key+"&client_secret="+sec_key
         req = urllib2.Request(url)
         resp = urllib2.urlopen(req)
@@ -49,7 +49,7 @@ def start():
 			result = html.xpath('//div[contains(@id,"qiushi_tag")]')
 			for site in result:
                                 if g_running == False:
-                                    exit(0)
+                                        exit(0)
 				imgUrl    = site.xpath('.//a')[0].attrib['href']
 				username  = site.xpath('.//h2')[0].text.encode('utf-8')
 				#br标签截断文本内容

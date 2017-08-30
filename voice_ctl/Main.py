@@ -80,7 +80,7 @@ def recordSound( threadName, logger,sourceFileQueue, rwLock):
         '''
         fileName = 'file'+ str(i) + '.wav'
         filePath = SOURCE_FILE_ARECORD_PATH + fileName
-        arecordCmd = 'sudo arecord  -D plughw:1,0 -c 1 -d 5 ' + filePath + ' -r 8000 -f S16_LE 2 > /dev/null'
+        arecordCmd = 'sudo arecord  -D plughw:1,0 -c 1 -d 7 ' + filePath + ' -r 8000 -f S16_LE 2 > /dev/null'
         os.system(arecordCmd) 
         try:
             rwLock.acquire_write()
@@ -119,12 +119,15 @@ def identifySound( threadName, logger,sourceFileQueue,startStopDict ,rwLockSourc
     while g_running and True:
         #'''
         if sourceFileQueue.empty():
+            logger.info('sourceFileQueue.empty()')
             time.sleep(0.5)
             continue;
         if startStopDict['停止'].full():
+            logger.info('startStopDict[停止].full()')
             time.sleep(0.5)
             continue;
         if startStopDict['开始'].full():
+            logger.info('startStopDict[开始].full()')
             time.sleep(0.5)
             continue;
         
@@ -194,6 +197,7 @@ def stopSound( threadName, logger,startStopDict ,rwLockStartStopDict):
         if  index == 0: #停止音乐
             scriptPath = PROJECT_PATH + 'script/music_ctrl.sh'
             os.system(scriptPath)
+            #os.system(scriptPath)
             
             cmd = 'python ' + sourcePath + ' -v ' + '停止音乐完成'
             os.system(cmd)
@@ -209,8 +213,6 @@ def stopSound( threadName, logger,startStopDict ,rwLockStartStopDict):
         elif index == 2: #停止笑话
             scriptPath = PROJECT_PATH + 'script/qiushibaike_ctrl.sh'
             os.system(scriptPath)
-            #os.system(scriptPath)
-            #subprocess.call(scriptPath,shell=True)
             
             cmd = 'python ' + sourcePath + ' -v ' + '停止笑话完成'
             os.system(cmd)
@@ -237,13 +239,15 @@ def startSound( threadName, logger,startStopDict ,rwLockStartStopDict):
         logger.info('startSound: %s', key)
         index = selectStartStopKey(logger,key)
         if  index == 0: #开始音乐
-            sourcePath = 'python ' +PROJECT_PATH + 'music.py'
+            sourcePath = 'python '+ PROJECT_PATH + 'music.py'
             os.system(sourcePath)
+            #os.system('python /home/pi/sourcecode/fuzhuscript/voice_ctl/music.py')
         elif index == 1:#开始天气
             sourceCmd = 'python ' + PROJECT_PATH + 'weather.py '
             os.system(sourceCmd)
         elif index == 2:#开始笑话
             sourcePath = 'python ' + PROJECT_PATH + 'qiushibaike.py'
+            logger.info('startSound,sourcePath: %s', sourcePath)
             os.system(sourcePath)
         elif index == None:
             pass

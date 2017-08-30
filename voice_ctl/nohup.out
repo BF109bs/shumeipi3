@@ -147,3 +147,247 @@ A:   0.0 (00.0) of 1.8 (01.8) ??,?% 0% [KA:   0.2 (00.2) of 1.8 (01.8)  0.5% 0
 
 
 Exiting... (End of file)
+MPlayer2 2.0-728-g2c378c7-4+b1 (C) 2000-2012 MPlayer Team
+Cannot open file '/home/pi/.mplayer/input.conf': No such file or directory
+Failed to open /home/pi/.mplayer/input.conf.
+Cannot open file '/etc/mplayer/input.conf': No such file or directory
+Failed to open /etc/mplayer/input.conf.
+
+Playing http://tsn.baidu.com/text2audio?tex=停止程序完成&lan=zh&per=3&pit=5&spd=4&cuid=b827ebcac3a8&ctp=1&tok=24.39845b556d8a59261fab1c4aca3f2271.2592000.1506693459.282335-10032490.
+Resolving tsn.baidu.com for AF_INET6...
+Couldn't resolve name for AF_INET6: tsn.baidu.com
+Resolving tsn.baidu.com for AF_INET...
+Connecting to server tsn.baidu.com[111.202.114.125]: 80...
+Cache size set to 320 KiB
+Cache fill:  0.00% (0 bytes)   
+Dead key input on file descriptor 0
+Cache fill:  0.00% (0 bytes)   
+Detected file format: MP2/3 (MPEG audio layer 2/3) (libavformat)
+[mp3 @ 0x75b2f5b8]Estimating duration from bitrate, this may be inaccurate
+[lavf] stream 0: audio (mp3), -aid 0
+Selected audio codec: MPEG 1.0/2.0/2.5 layers I, II, III [mpg123]
+AUDIO: 16000 Hz, 2 ch, s16le, 16.0 kbit/3.12% (ratio: 2000->64000)
+AO: [pulse] Init failed: Connection refused
+AO: [alsa] 16000Hz 2ch s16le (2 bytes per sample)
+[AO_ALSA] Unable to find simple control 'Master',0.
+[Mixer] No hardware mixing, inserting volume filter.
+Video: no video
+Starting playback...
+A:   0.0 (00.0) of 1.8 (01.8) ??,?% 0% [KA:   0.2 (00.2) of 1.8 (01.8)  0.5% 0% [KA:   0.5 (00.4) of 1.8 (01.8)  0.5% 0% [KA:   0.7 (00.7) of 1.8 (01.8)  0.5% 0% [KA:   1.0 (00.9) of 1.8 (01.8)  0.5% 0% [KA:   1.2 (01.2) of 1.8 (01.8)  0.5% 0% [KA:   1.5 (01.4) of 1.8 (01.8)  0.5% 0% [KA:   1.5 (01.4) of 1.8 (01.8)  0.5% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.5% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.5% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.5% 0% [KA:   1.6 (01.5) of 1.8 (01.8)  0.5% 0% [KA:   1.6 (01.5) of 1.8 (01.8)  0.5% 0% [KA:   1.6 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.6 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.6 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [K
+
+
+Exiting... (End of file)
+MPlayer2 2.0-728-g2c378c7-4+b1 (C) 2000-2012 MPlayer Team
+Cannot open file '/home/pi/.mplayer/input.conf': No such file or directory
+Failed to open /home/pi/.mplayer/input.conf.
+Cannot open file '/etc/mplayer/input.conf': No such file or directory
+Failed to open /etc/mplayer/input.conf.
+
+Playing http://tsn.baidu.com/text2audio?tex=停止程序完成&lan=zh&per=4&pit=5&spd=4&cuid=b827ebcac3a8&ctp=1&tok=24.b69a8906180698187b57c8625175f91a.2592000.1506693829.282335-10032490.
+Resolving tsn.baidu.com for AF_INET6...
+Couldn't resolve name for AF_INET6: tsn.baidu.com
+Resolving tsn.baidu.com for AF_INET...
+Connecting to server tsn.baidu.com[111.202.114.125]: 80...
+Cache size set to 320 KiB
+Cache fill:  0.00% (0 bytes)   
+Dead key input on file descriptor 0
+Cache fill:  0.00% (0 bytes)   
+Detected file format: MP2/3 (MPEG audio layer 2/3) (libavformat)
+[mp3 @ 0x75bb95b8]Estimating duration from bitrate, this may be inaccurate
+[lavf] stream 0: audio (mp3), -aid 0
+Selected audio codec: MPEG 1.0/2.0/2.5 layers I, II, III [mpg123]
+AUDIO: 16000 Hz, 2 ch, s16le, 16.0 kbit/3.12% (ratio: 2000->64000)
+AO: [pulse] Init failed: Connection refused
+AO: [alsa] 16000Hz 2ch s16le (2 bytes per sample)
+[AO_ALSA] Unable to find simple control 'Master',0.
+[Mixer] No hardware mixing, inserting volume filter.
+Video: no video
+Starting playback...
+A:   0.0 (00.0) of 2.0 (01.9) ??,?% 0% [KA:   0.2 (00.2) of 2.0 (01.9)  0.4% 0% [KA:   0.5 (00.4) of 2.0 (01.9)  0.4% 0% [KA:   0.7 (00.6) of 2.0 (01.9)  0.4% 0% [KA:   0.9 (00.9) of 2.0 (01.9)  0.5% 0% [KA:   1.1 (01.1) of 2.0 (01.9)  0.5% 0% [KA:   1.4 (01.3) of 2.0 (01.9)  0.5% 0% [KA:   1.6 (01.5) of 2.0 (01.9)  0.5% 0% [KA:   1.6 (01.6) of 2.0 (01.9)  0.5% 0% [KA:   1.6 (01.6) of 2.0 (01.9)  0.5% 0% [KA:   1.7 (01.6) of 2.0 (01.9)  0.5% 0% [KA:   1.7 (01.6) of 2.0 (01.9)  0.5% 0% [KA:   1.7 (01.6) of 2.0 (01.9)  0.5% 0% [KA:   1.7 (01.7) of 2.0 (01.9)  0.5% 0% [KA:   1.7 (01.7) of 2.0 (01.9)  0.5% 0% [KA:   1.8 (01.7) of 2.0 (01.9)  0.5% 0% [KA:   1.8 (01.7) of 2.0 (01.9)  0.5% 0% [KA:   1.8 (01.7) of 2.0 (01.9)  0.5% 0% [KA:   1.8 (01.8) of 2.0 (01.9)  0.5% 0% [KA:   1.8 (01.8) of 2.0 (01.9)  0.5% 0% [KA:   1.9 (01.8) of 2.0 (01.9)  0.5% 0% [KA:   1.9 (01.8) of 2.0 (01.9)  0.5% 0% [KA:   1.9 (01.8) of 2.0 (01.9)  0.5% 0% [KA:   1.9 (01.9) of 2.0 (01.9)  0.5% 0% [KA:   1.9 (01.9) of 2.0 (01.9)  0.5% 0% [K
+
+
+Exiting... (End of file)
+MPlayer2 2.0-728-g2c378c7-4+b1 (C) 2000-2012 MPlayer Team
+Cannot open file '/home/pi/.mplayer/input.conf': No such file or directory
+Failed to open /home/pi/.mplayer/input.conf.
+Cannot open file '/etc/mplayer/input.conf': No such file or directory
+Failed to open /etc/mplayer/input.conf.
+
+Playing http://tsn.baidu.com/text2audio?tex=停止程序完成&lan=zh&per=3&pit=5&spd=4&cuid=b827ebcac3a8&ctp=1&tok=24.95d6ac1f5cdeab274bc9693f9ec82429.2592000.1506695467.282335-10032490.
+Resolving tsn.baidu.com for AF_INET6...
+Couldn't resolve name for AF_INET6: tsn.baidu.com
+Resolving tsn.baidu.com for AF_INET...
+Connecting to server tsn.baidu.com[111.202.114.125]: 80...
+Cache size set to 320 KiB
+Cache fill:  0.00% (0 bytes)   
+Dead key input on file descriptor 0
+Cache fill:  0.00% (0 bytes)   
+Detected file format: MP2/3 (MPEG audio layer 2/3) (libavformat)
+[mp3 @ 0x75b925b8]Estimating duration from bitrate, this may be inaccurate
+[lavf] stream 0: audio (mp3), -aid 0
+Selected audio codec: MPEG 1.0/2.0/2.5 layers I, II, III [mpg123]
+AUDIO: 16000 Hz, 2 ch, s16le, 16.0 kbit/3.12% (ratio: 2000->64000)
+AO: [pulse] Init failed: Connection refused
+AO: [alsa] 16000Hz 2ch s16le (2 bytes per sample)
+[AO_ALSA] Unable to find simple control 'Master',0.
+[Mixer] No hardware mixing, inserting volume filter.
+Video: no video
+Starting playback...
+A:   0.0 (00.0) of 1.8 (01.8) ??,?% 0% [KA:   0.2 (00.2) of 1.8 (01.8)  0.5% 0% [KA:   0.5 (00.4) of 1.8 (01.8)  0.5% 0% [KA:   0.7 (00.7) of 1.8 (01.8)  0.5% 0% [KA:   1.0 (00.9) of 1.8 (01.8)  0.5% 0% [KA:   1.2 (01.2) of 1.8 (01.8)  0.5% 0% [KA:   1.5 (01.4) of 1.8 (01.8)  0.5% 0% [KA:   1.5 (01.4) of 1.8 (01.8)  0.5% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.5% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.5% 0% [KA:   1.6 (01.5) of 1.8 (01.8)  0.5% 0% [KA:   1.6 (01.5) of 1.8 (01.8)  0.5% 0% [KA:   1.6 (01.5) of 1.8 (01.8)  0.5% 0% [KA:   1.6 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.6 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [K
+
+
+Exiting... (End of file)
+MPlayer2 2.0-728-g2c378c7-4+b1 (C) 2000-2012 MPlayer Team
+Cannot open file '/home/pi/.mplayer/input.conf': No such file or directory
+Failed to open /home/pi/.mplayer/input.conf.
+Cannot open file '/etc/mplayer/input.conf': No such file or directory
+Failed to open /etc/mplayer/input.conf.
+
+Playing http://tsn.baidu.com/text2audio?tex=停止程序完成&lan=zh&per=3&pit=5&spd=4&cuid=b827ebcac3a8&ctp=1&tok=24.a7ed1cce0647b26c83976e87713b6c31.2592000.1506695724.282335-10032490.
+Resolving tsn.baidu.com for AF_INET6...
+Couldn't resolve name for AF_INET6: tsn.baidu.com
+Resolving tsn.baidu.com for AF_INET...
+Connecting to server tsn.baidu.com[111.202.114.125]: 80...
+Cache size set to 320 KiB
+Cache fill:  0.00% (0 bytes)   
+Dead key input on file descriptor 0
+Cache fill:  0.00% (0 bytes)   
+Detected file format: MP2/3 (MPEG audio layer 2/3) (libavformat)
+Cache not filling, consider increasing -cache and/or -cache-min!
+[mp3 @ 0x75bc15b8]Estimating duration from bitrate, this may be inaccurate
+[lavf] stream 0: audio (mp3), -aid 0
+Selected audio codec: MPEG 1.0/2.0/2.5 layers I, II, III [mpg123]
+AUDIO: 16000 Hz, 2 ch, s16le, 16.0 kbit/3.12% (ratio: 2000->64000)
+AO: [pulse] Init failed: Connection refused
+AO: [alsa] 16000Hz 2ch s16le (2 bytes per sample)
+[AO_ALSA] Unable to find simple control 'Master',0.
+[Mixer] No hardware mixing, inserting volume filter.
+Video: no video
+Starting playback...
+A:   0.0 (00.0) of 1.8 (01.8) ??,?% 0% [KA:   0.2 (00.2) of 1.8 (01.8)  0.4% 0% [KA:   0.5 (00.4) of 1.8 (01.8)  0.3% 0% [KA:   0.7 (00.7) of 1.8 (01.8)  0.4% 0% [KA:   1.0 (00.9) of 1.8 (01.8)  0.4% 0% [KA:   1.2 (01.2) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.4) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.4) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.6 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.6 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.6 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.6 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [K
+
+
+Exiting... (End of file)
+MPlayer2 2.0-728-g2c378c7-4+b1 (C) 2000-2012 MPlayer Team
+Cannot open file '/home/pi/.mplayer/input.conf': No such file or directory
+Failed to open /home/pi/.mplayer/input.conf.
+Cannot open file '/etc/mplayer/input.conf': No such file or directory
+Failed to open /etc/mplayer/input.conf.
+
+Playing http://tsn.baidu.com/text2audio?tex=停止程序完成&lan=zh&per=4&pit=5&spd=4&cuid=b827ebcac3a8&ctp=1&tok=24.c633c4b61a5f9a226a2c9e49a213ee08.2592000.1506696780.282335-10032490.
+Resolving tsn.baidu.com for AF_INET6...
+Couldn't resolve name for AF_INET6: tsn.baidu.com
+Resolving tsn.baidu.com for AF_INET...
+Connecting to server tsn.baidu.com[111.202.114.125]: 80...
+Cache size set to 320 KiB
+Cache fill:  0.00% (0 bytes)   
+Dead key input on file descriptor 0
+Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   
+Detected file format: MP2/3 (MPEG audio layer 2/3) (libavformat)
+Cache not filling, consider increasing -cache and/or -cache-min!
+nop_streaming_read error : Resource temporarily unavailable
+Stream not seekable!
+[mp3 @ 0x75bf45b8]Estimating duration from bitrate, this may be inaccurate
+[lavf] stream 0: audio (mp3), -aid 0
+Selected audio codec: MPEG 1.0/2.0/2.5 layers I, II, III [mpg123]
+AUDIO: 16000 Hz, 2 ch, s16le, 16.0 kbit/3.12% (ratio: 2000->64000)
+AO: [pulse] Init failed: Connection refused
+AO: [alsa] 16000Hz 2ch s16le (2 bytes per sample)
+[AO_ALSA] Unable to find simple control 'Master',0.
+[Mixer] No hardware mixing, inserting volume filter.
+Video: no video
+Starting playback...
+A:   0.0 (00.0) of 2.0 (01.9) ??,?% 0% [KA:   0.2 (00.2) of 2.0 (01.9)  0.3% 0% [KA:   0.5 (00.4) of 2.0 (01.9)  0.3% 0% [KA:   0.7 (00.7) of 2.0 (01.9)  0.4% 0% [KA:   1.0 (00.9) of 2.0 (01.9)  0.4% 0% [KA:   1.0 (00.9) of 2.0 (01.9)  0.4% 0% [KA:   1.0 (01.0) of 2.0 (01.9)  0.4% 0% [KA:   1.0 (01.0) of 2.0 (01.9)  0.4% 0% [KA:   1.1 (01.0) of 2.0 (01.9)  0.4% 0% [KA:   1.1 (01.0) of 2.0 (01.9)  0.4% 0% [KA:   1.1 (01.1) of 2.0 (01.9)  0.4% 0% [KA:   1.1 (01.1) of 2.0 (01.9)  0.4% 0% [KA:   1.1 (01.1) of 2.0 (01.9)  0.4% 0% [KA:   1.2 (01.1) of 2.0 (01.9)  0.4% 0% [KA:   1.2 (01.1) of 2.0 (01.9)  0.4% 0% [K
+
+
+Exiting... (End of file)
+MPlayer2 2.0-728-g2c378c7-4+b1 (C) 2000-2012 MPlayer Team
+Cannot open file '/home/pi/.mplayer/input.conf': No such file or directory
+Failed to open /home/pi/.mplayer/input.conf.
+Cannot open file '/etc/mplayer/input.conf': No such file or directory
+Failed to open /etc/mplayer/input.conf.
+
+Playing http://tsn.baidu.com/text2audio?tex=停止程序完成&lan=zh&per=4&pit=5&spd=4&cuid=b827ebcac3a8&ctp=1&tok=24.00d902eec41fe7c298d7b79d3bc3b884.2592000.1506696964.282335-10032490.
+Resolving tsn.baidu.com for AF_INET6...
+Couldn't resolve name for AF_INET6: tsn.baidu.com
+Resolving tsn.baidu.com for AF_INET...
+Connecting to server tsn.baidu.com[111.202.114.125]: 80...
+Cache size set to 320 KiB
+Cache fill:  0.00% (0 bytes)   
+Dead key input on file descriptor 0
+Cache fill:  0.00% (0 bytes)   
+Detected file format: MP2/3 (MPEG audio layer 2/3) (libavformat)
+Cache not filling, consider increasing -cache and/or -cache-min!
+[mp3 @ 0x75b195b8]Estimating duration from bitrate, this may be inaccurate
+[lavf] stream 0: audio (mp3), -aid 0
+Selected audio codec: MPEG 1.0/2.0/2.5 layers I, II, III [mpg123]
+AUDIO: 16000 Hz, 2 ch, s16le, 16.0 kbit/3.12% (ratio: 2000->64000)
+AO: [pulse] Init failed: Connection refused
+AO: [alsa] 16000Hz 2ch s16le (2 bytes per sample)
+[AO_ALSA] Unable to find simple control 'Master',0.
+[Mixer] No hardware mixing, inserting volume filter.
+Video: no video
+Starting playback...
+A:   0.0 (00.0) of 2.0 (01.9) ??,?% 0% [KA:   0.2 (00.2) of 2.0 (01.9)  0.4% 0% [KA:   0.5 (00.4) of 2.0 (01.9)  0.3% 0% [KA:   0.7 (00.7) of 2.0 (01.9)  0.4% 0% [KA:   1.0 (00.9) of 2.0 (01.9)  0.4% 0% [KA:   1.2 (01.2) of 2.0 (01.9)  0.5% 0% [KA:   1.5 (01.4) of 2.0 (01.9)  0.5% 0% [KA:   1.7 (01.7) of 2.0 (01.9)  0.5% 0% [KA:   1.7 (01.7) of 2.0 (01.9)  0.5% 0% [KA:   1.8 (01.7) of 2.0 (01.9)  0.5% 0% [KA:   1.8 (01.7) of 2.0 (01.9)  0.5% 0% [KA:   1.8 (01.8) of 2.0 (01.9)  0.5% 0% [KA:   1.8 (01.8) of 2.0 (01.9)  0.5% 0% [KA:   1.8 (01.8) of 2.0 (01.9)  0.5% 0% [KA:   1.9 (01.8) of 2.0 (01.9)  0.5% 0% [KA:   1.9 (01.8) of 2.0 (01.9)  0.5% 0% [KA:   1.9 (01.9) of 2.0 (01.9)  0.5% 0% [KA:   1.9 (01.9) of 2.0 (01.9)  0.5% 0% [KA:   1.9 (01.9) of 2.0 (01.9)  0.5% 0% [K
+
+
+Exiting... (End of file)
+MPlayer2 2.0-728-g2c378c7-4+b1 (C) 2000-2012 MPlayer Team
+Cannot open file '/home/pi/.mplayer/input.conf': No such file or directory
+Failed to open /home/pi/.mplayer/input.conf.
+Cannot open file '/etc/mplayer/input.conf': No such file or directory
+Failed to open /etc/mplayer/input.conf.
+
+Playing http://tsn.baidu.com/text2audio?tex=停止程序完成&lan=zh&per=3&pit=5&spd=4&cuid=b827ebcac3a8&ctp=1&tok=24.75f3072db41974e03e3ef2c575bab48a.2592000.1506697225.282335-10032490.
+Resolving tsn.baidu.com for AF_INET6...
+Couldn't resolve name for AF_INET6: tsn.baidu.com
+Resolving tsn.baidu.com for AF_INET...
+Connecting to server tsn.baidu.com[111.202.114.125]: 80...
+Dead key input on file descriptor 0
+Cache size set to 320 KiB
+Cache fill:  0.00% (0 bytes)   
+Detected file format: MP2/3 (MPEG audio layer 2/3) (libavformat)
+[mp3 @ 0x75be95b8]Estimating duration from bitrate, this may be inaccurate
+[lavf] stream 0: audio (mp3), -aid 0
+Selected audio codec: MPEG 1.0/2.0/2.5 layers I, II, III [mpg123]
+AUDIO: 16000 Hz, 2 ch, s16le, 16.0 kbit/3.12% (ratio: 2000->64000)
+AO: [pulse] Init failed: Connection refused
+AO: [alsa] 16000Hz 2ch s16le (2 bytes per sample)
+[AO_ALSA] Unable to find simple control 'Master',0.
+[Mixer] No hardware mixing, inserting volume filter.
+Video: no video
+Starting playback...
+A:   0.0 (00.0) of 1.8 (01.8) ??,?% 0% [KA:   0.2 (00.2) of 1.8 (01.8)  0.3% 0% [KA:   0.5 (00.4) of 1.8 (01.8)  0.3% 0% [KA:   0.7 (00.7) of 1.8 (01.8)  0.4% 0% [KA:   1.0 (00.9) of 1.8 (01.8)  0.4% 0% [KA:   1.2 (01.2) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.4) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.4) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.6 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.6 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.6 (01.6) of 1.8 (01.8)  0.4% 0% [KA:   1.6 (01.6) of 1.8 (01.8)  0.4% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [K
+
+
+Exiting... (End of file)
+MPlayer2 2.0-728-g2c378c7-4+b1 (C) 2000-2012 MPlayer Team
+Cannot open file '/home/pi/.mplayer/input.conf': No such file or directory
+Failed to open /home/pi/.mplayer/input.conf.
+Cannot open file '/etc/mplayer/input.conf': No such file or directory
+Failed to open /etc/mplayer/input.conf.
+
+Playing http://tsn.baidu.com/text2audio?tex=停止程序完成&lan=zh&per=3&pit=5&spd=4&cuid=b827ebcac3a8&ctp=1&tok=24.287e0abeeaa4e298f8a332e3d3e6f393.2592000.1506698413.282335-10032490.
+Resolving tsn.baidu.com for AF_INET6...
+Couldn't resolve name for AF_INET6: tsn.baidu.com
+Resolving tsn.baidu.com for AF_INET...
+Connecting to server tsn.baidu.com[111.202.114.125]: 80...
+Cache size set to 320 KiB
+Cache fill:  0.00% (0 bytes)   
+Dead key input on file descriptor 0
+Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   Cache fill:  0.00% (0 bytes)   
+Detected file format: MP2/3 (MPEG audio layer 2/3) (libavformat)
+[mp3 @ 0x75bd05b8]Estimating duration from bitrate, this may be inaccurate
+[lavf] stream 0: audio (mp3), -aid 0
+Selected audio codec: MPEG 1.0/2.0/2.5 layers I, II, III [mpg123]
+AUDIO: 16000 Hz, 2 ch, s16le, 16.0 kbit/3.12% (ratio: 2000->64000)
+AO: [pulse] Init failed: Connection refused
+AO: [alsa] 16000Hz 2ch s16le (2 bytes per sample)
+[AO_ALSA] Unable to find simple control 'Master',0.
+[Mixer] No hardware mixing, inserting volume filter.
+Video: no video
+Starting playback...
+A:   0.0 (00.0) of 1.8 (01.8) ??,?% 0% [KA:   0.2 (00.2) of 1.8 (01.8)  0.3% 0% [KA:   0.5 (00.4) of 1.8 (01.8)  0.3% 0% [KA:   0.7 (00.7) of 1.8 (01.8)  0.4% 0% [KA:   1.0 (00.9) of 1.8 (01.8)  0.4% 0% [KA:   1.2 (01.2) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.4) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.4) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.5 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.6 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.6 (01.5) of 1.8 (01.8)  0.4% 0% [KA:   1.6 (01.6) of 1.8 (01.8)  0.4% 0% [KA:   1.6 (01.6) of 1.8 (01.8)  0.4% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.4% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.4% 0% [KA:   1.7 (01.6) of 1.8 (01.8)  0.4% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.4% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.7 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [KA:   1.8 (01.7) of 1.8 (01.8)  0.5% 0% [K
+
+
+Exiting... (End of file)

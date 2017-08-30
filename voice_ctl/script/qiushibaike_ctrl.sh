@@ -15,6 +15,7 @@ MYPID1=`ps -aux | grep "python /home/pi/sourcecode/fuzhuscript/voice_ctl/qiushib
 MYPID2=`ps -aux | grep 'mplayer "http://tsn.baidu.com/text2audio' |awk {'print $2'}`
 MYPID3=`ps -aux | grep "mplayer http://tsn.baidu.com/text2audio" |awk {'print $2'}`
 kill -15  $MYPID1 $MYPID2 $MYPID3
+#kill -9  $MYPID1 $MYPID2 $MYPID3
 
 
 

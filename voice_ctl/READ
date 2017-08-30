@@ -1,0 +1,7 @@
+f1.wav 小q 你好
+f2.wav 小q,开始音乐
+f3.wav 小q,停止音乐
+f4.wav 小q开始预报天气
+f5.wav 小q停止预报天气
+
+sudo arecord  -D plughw:1,0 -c 1 -d 5  f5.wav -r 8000 -f S16_LE 2 > /dev/null

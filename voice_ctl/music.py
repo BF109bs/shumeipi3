@@ -13,6 +13,7 @@ def signHandle(signum, frame):
     global g_running
     if( signum in (signal.SIGINT,signal.SIGTERM)):
         g_running = False
+        exit(0)
 
 def log(level, msg):
     log_msg = '[%s]: %s (%s)' % (level, msg, datetime.datetime.now() )
@@ -45,6 +46,9 @@ if __name__ == '__main__':
     musicjihe = getMusic();
     log('INFO', 'start play music shero.mp3')
     while g_running and True: 
+        if g_running == False:
+            exit(0)
+        
         if musicjihe == []:
                 break
         music = selectMusic(musicjihe)
