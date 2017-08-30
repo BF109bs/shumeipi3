@@ -194,7 +194,6 @@ def stopSound( threadName, logger,startStopDict ,rwLockStartStopDict):
         if  index == 0: #停止音乐
             scriptPath = PROJECT_PATH + 'script/music_ctrl.sh'
             os.system(scriptPath)
-            os.system(scriptPath)
             
             cmd = 'python ' + sourcePath + ' -v ' + '停止音乐完成'
             os.system(cmd)
